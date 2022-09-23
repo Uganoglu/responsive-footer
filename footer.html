@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+.container{
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+@media (min-width:576px){
+.container {
+    max-width: 540px;
+}
+}
+
+@media (min-width:768px){
+    .container{
+        max-width:720px;
+    }
+
+}
+
+@media (min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media (min-width:1200px){
+    .container {
+        max-width: 1140px;
+    }
+}
+
+
+
+footer {
+    background-color: royalblue;
+}
+.footer-area{
+    display:flex;height:100vh;flex-direction:column;width:100%;padding-top: 50px;
+}
+.footer-area-inner-box{
+    display:flex;flex:1;
+}
+.footer-area-inner-box-logo{
+    color:#fff;flex: 1;font-size:34px;padding-right: 7.5px;
+}
+.footer-area-inner-box-logo img{
+    width: 100px;height: 100px;
+}
+.footer-area-inner-box-logo ul{
+    line-height: 35px; list-style: none; padding: 0px; flex: 1; margin-right: 10px;
+}
+.footer-area-inner-box-logo-title{
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1.4px;
+    font-size: 36px;
+}
+.footer-area-inner-box-logo-comment{
+    color: #fff;
+    letter-spacing: 1.4px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+.footer-area-inner-box-address{
+    color:#fff;flex: 1;font-size:1.3em;padding: 0px 7.5px;
+}
+
+.footer-area-inner-box-address ul{
+    color: #fff; padding: 0px; flex: 1; margin-right: 10px;
+}
+
+.footer-area-inner-box-address ul li{
+    display: flex;
+    margin-bottom: 15px;
+    letter-spacing: 1.2px;
+    line-height: 1.25em;
+}
+.footer-area-inner-box-address ul li:last-child{
+margin-bottom: 0px;
+}
+.footer-area-inner-box-address ul li i{
+    font-size: 1em;
+margin: 3px 15px 0px 0px;
+}
+.footer-area-inner-box-menu{
+    color:#fff;flex: 1;font-size:34px;padding-left: 7.5px;
+}
+.footer-area-inner-box-menu ul{
+    color: #fff; padding: 0px; flex: 1;
+}
+.footer-area-inner-box-menu ul li {
+    display: flex;
+    margin-bottom: 15px;
+    letter-spacing: 1.2px;
+}
+.footer-area-inner-box-menu ul li a{
+    font-size:18px;
+}
+.footer-area-line-box{
+    display:flex;flex:1;
+}
+.footer-area-line-box-item{
+    display:flex;align-items:center;width:100%;
+}
+.footer-area-line-box-item hr{
+    color:#fff;width:100%;margin: 0;
+}
+.footer-area-social-icon-box{
+    display:flex;flex:1;flex-direction:column;
+}
+.footer-area-social-icon-box ul{
+    color:#fff;display:flex;flex: 1;font-size:34px;margin:0;align-items:center;justify-content:center;list-style:none;
+}
+.footer-area-social-icon-box ul li{
+    border:1px solid #fff;border-radius:50%;display:flex;justify-content:center;align-items:center;width:45px;height:45px;margin-right:15px;
+}
+.footer-area-social-icon-box ul li a{
+        font-size: 16px;
+}
+.footer-area-social-icon-box span{
+    display:flex;flex:1; justify-content: center;color:#fff;align-items:center; font-size: 18px; letter-spacing: 1.2px;
+}
+
+@media (max-width:992px){
+    .footer-area{
+        padding-top: 40px;
+    }
+    .footer-area-inner-box-address{
+        font-size: 1.2em;
+    }
+    .footer-area-inner-box-logo-title {
+font-size: 34px;
+    }
+}
+@media (max-width:768px){
+    .footer-area-inner-box-logo, .footer-area-inner-box-address {
+        margin-bottom: 40px;
+    }
+
+    .footer-area-line-box{
+        margin:40px 0px;
+    }
+
+    .footer-area-social-icon-box ul{
+        margin-bottom:20px;
+    }
+    .footer-area-social-icon-box span{
+        margin-bottom:10px;
+    }
+
+    .footer-area-inner-box {
+        flex-direction: column;
+    }
+.footer-area{
+    padding-top: 20px;
+    height:auto;
+}
+.footer-area-inner-box-logo, .footer-area-inner-box-address, .footer-area-inner-box-menu{
+    padding: 0px;
+}
+.footer-area-inner-box-logo-title {
+    font-size: 32px;
+}
+.footer-area-inner-box-logo img{
+display: none;
+}
+}
+</style>
+</head>
+<body>
+<header>
+
+</header>
+<main>
+
+</main>
+
+<footer>
+    <div class="container">
+                <div class="footer-area">
+                    <div class="footer-area-inner-box">
+                        <div class="footer-area-inner-box-logo">
+
+                            <ul>
+                                <li class="footer-area-inner-box-logo-title">Birdlifes</li>
+                                <li class="footer-area-inner-box-logo-comment">
+                                    The World's Most Updated Bird Site
+                                    </li>
+                                    <li><img src="rsm/birds2.png"/></li>
+                            </ul>
+
+                        </div>
+
+                        <div class="footer-area-inner-box-address">
+                            <ul>
+                                <li>
+                                    <i class="fa fa-map-marker"></i><span>Halil Rıfat Paşa Cad.<br />No: 1201 / 86<br />Konak / İZMİR</span>
+
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone"></i><span>+90(541) 580 51 34</span>
+
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope-o"></i><span>iletisim@blogerx.com</span>
+
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="footer-area-inner-box-menu">
+
+                            <ul>
+                                <li class="footer-menu">
+                                    <a>HAKKIMIZDA</a>
+                                </li>
+                                <li class="footer-menu">
+                                    <a>İLETİŞİM</a>
+                                </li>
+
+                                <li class="footer-menu">
+                                    <a>GİZLİLİK POLİTİKASI</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="footer-area-line-box">
+                        <div class="footer-area-line-box-item">
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="footer-area-social-icon-box">
+                        <ul>
+                            <li> <a class="fa fa-facebook"></a> </li>
+                            <li><a class="fa fa-twitter"></a> </li>
+                            <li> <a class="fa fa-instagram"></a> </li>
+                        </ul>
+                        <span>blogerx.com | Tüm hakları saklıdır 2021 ©</span>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+</footer>
+</body>
+</html>
